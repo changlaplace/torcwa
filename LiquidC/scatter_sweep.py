@@ -21,7 +21,7 @@ import tqdm
 torch.backends.cuda.matmul.allow_tf32 = False
 sim_dtype = torch.complex64
 geo_dtype = torch.float32
-device = torch.device('cpu')   # 和你 example 保持一致
+device = torch.device('cpu') 
 
 # =========================================================
 # Simulation environment
